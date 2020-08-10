@@ -21,14 +21,9 @@ class MyApp extends StatelessWidget {
         // 去除右上角的'debug'横幅
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text("logger"),
-          ),
-          body: TimeLine(),
-        ));
+            primarySwatch: Colors.blue,
+            visualDensity: VisualDensity.adaptivePlatformDensity),
+        home:
+            Scaffold(appBar: AppBar(title: Text("logger")), body: TimeLine()));
   }
 }

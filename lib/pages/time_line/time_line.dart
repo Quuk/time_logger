@@ -8,6 +8,7 @@ class TimeLine extends StatefulWidget {
   _TimeLineState createState() => _TimeLineState();
 }
 
+// 时间线展示(主页面)
 class _TimeLineState extends State<TimeLine> {
   @override
   Widget build(BuildContext context) {
