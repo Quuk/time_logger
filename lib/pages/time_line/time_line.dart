@@ -15,6 +15,13 @@ class _TimeLineState extends State<TimeLine> {
     return ListView(
       children: <Widget>[
         ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
+        ModuleTimeBox(),
       ],
     );
   }
