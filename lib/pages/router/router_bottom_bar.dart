@@ -31,8 +31,6 @@ class _MyHomePageState extends State<MyHomePage> {
         body: _pageList[currentIndex],
         bottomNavigationBar: BottomNavigationBar(
             type: BottomNavigationBarType.fixed,
-            backgroundColor: Colors.cyan,
-            fixedColor: Colors.red[400],
             iconSize: 23,
             unselectedFontSize: 10,
             selectedFontSize: 12,

@@ -13,7 +13,6 @@ class ModuleTimeBox extends StatelessWidget {
           Expanded(
               // 左侧线条
               child: Container(
-                  color: Colors.red[50],
                   width: 100.0,
                   child: Stack(
                       alignment: AlignmentDirectional.center,
@@ -40,7 +39,6 @@ class ModuleTimeBox extends StatelessWidget {
               flex: 5,
               // 右侧数据
               child: Container(
-                  color: Colors.red[50],
                   padding: EdgeInsets.fromLTRB(3, 25, 0, 10),
                   alignment: Alignment.bottomLeft,
                   child: Column(
