@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:logger_ui/pages/module/module_tag.dart';
+import 'package:logger_ui/module/module_tag.dart';
 
 class ModuleTimeBox extends StatelessWidget {
   @override

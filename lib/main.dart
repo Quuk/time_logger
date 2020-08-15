@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:logger_ui/pages/router/router_bottom_bar.dart';
-import 'package:logger_ui/pages/time_line/time_line.dart';
+import 'package:logger_ui/router/router_bottom_bar.dart';
 
 void main() {
   runApp(MyApp());
